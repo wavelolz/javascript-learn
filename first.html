@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<style>
+	header {
+	  text-align: center;
+	  letter-spacing: 1px;
+	  height: 8em;
+	  padding: 2em 10%;
+	}
+</style>
+
+<head>
+	<header>
+		This is my javascript page
+	</header>
+</head>
+
+<body>
+	<p id = "demo"></p>
+	<p id = "demo2"></p>
+	<p id = "demo3"></p>
+
+	<script>
+		document.getElementById("demo").innerHTML = "Hello Javascript";
+		
+		let a, b, c;
+		a = 1;
+		b = 2;
+		c = a + b;
+		document.getElementById('demo2').innerHTML = c;
+		
+		// Calculate the value
+		document.getElementById('demo3').innerHTML = "The sum of a and b is : " + c;
+	</script>
+</body>
+
+</html>
